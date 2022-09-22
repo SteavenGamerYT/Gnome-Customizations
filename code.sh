@@ -18,6 +18,7 @@ sudo dpkg --force-all -i ~/pop-shell-theme.deb
 sudo dpkg --force-all -i ~/pop-gtk-theme.deb
 sudo dpkg --force-all -i ~/pop-sound-theme.deb
 sudo apt install -f -y
+sudo apt install gedit
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
 gsettings set org.gnome.desktop.interface gtk-theme Pop
 gsettings set org.gnome.desktop.wm.preferences theme Pop
